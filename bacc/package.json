@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "needle": "^2.6.0",
     "request": "^2.88.2"
   }
 }
