@@ -3,15 +3,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" >
     <title>Document</title>
+    <style>
+        .cont1{
+            display: flex; flex-direction: column;
+            margin-left: auto; margin-right: auto;
+        }
+        .cont
+        {
+            display: flex; flex-direction: row;  padding: 5px; margin-left: auto; margin-right: auto;
+        }
+        .boxcont
+        {
+            height: 120px; width: 100px; border-style: solid; border-width: 2px; border-radius: 10px; padding: 5px; margin: 7px; border-color: pink;
+        }
+    </style>
 </head>
 <body>
-    <div class="desktop"></div>
-    <img class="ladder" src="assets/ladder@3x.png" alt="">
-    <div class="Polygon1"></div>
-    <div class="Polygon2"></div>
-    <div class="gb">Green<br>Bridge</div>
-  
+   
+    <div class="cont1">
+        <div class="cont">
+            <div class="boxcont"> Lorem ipsum dolor sit amet </div>
+            <div class="boxcont">Lorem ipsum dolor sit amet </div>
+            <div class="boxcont">Lorem ipsum dolor sit amet </div>
+        </div>
+       
+        <div class="cont">
+            <div class="boxcont">Lorem ipsum dolor sit, amet consectetur </div>
+            <div class="boxcont">Lorem ipsum, dolor sit amet consectetur </div>
+            <div class="boxcont">Lorem ipsum dolor, sit amet consectetur </div>
+        </div>
+   </div>
 </body>
 </html>
